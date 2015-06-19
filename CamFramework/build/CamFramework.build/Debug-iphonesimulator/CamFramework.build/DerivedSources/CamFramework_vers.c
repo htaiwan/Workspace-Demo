@@ -1,0 +1,1 @@
+ const unsigned char CamFrameworkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:CamFramework  PROJECT:CamFramework-1" "\n"; const double CamFrameworkVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C616D2B36261664169EEECA7 /* libPods-KalayCam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 179B083829E2E165C73B04F1 /* libPods-KalayCam.a */; };
+		DD40CF691B1D558F00CE7A9D /* CamFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD40CF681B1D558F00CE7A9D /* CamFramework.framework */; };
+		DD40CF6A1B1D558F00CE7A9D /* CamFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD40CF681B1D558F00CE7A9D /* CamFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD7CD8981B180AC2004C7544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD8971B180AC2004C7544 /* main.m */; };
+		DD7CD89B1B180AC2004C7544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD89A1B180AC2004C7544 /* AppDelegate.m */; };
+		DD7CD8A31B180AC2004C7544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD8A21B180AC2004C7544 /* Images.xcassets */; };
+		DD7CD8A61B180AC2004C7544 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD8A41B180AC2004C7544 /* LaunchScreen.xib */; };
+		DD7CD8B21B180AC3004C7544 /* KalayCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD8B11B180AC2004C7544 /* KalayCamTests.m */; };
+		DD7CD9141B184C92004C7544 /* Main_One_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9101B184C92004C7544 /* Main_One_ViewController.m */; };
+		DD7CD9151B184C92004C7544 /* Main_Two_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9121B184C92004C7544 /* Main_Two_ViewController.m */; };
+		DD7CD9161B184C92004C7544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD9131B184C92004C7544 /* Main.storyboard */; };
+		DD7CD91C1B184CA5004C7544 /* Second_One_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9181B184CA5004C7544 /* Second_One_ViewController.m */; };
+		DD7CD91D1B184CA5004C7544 /* Second_Two_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD91A1B184CA5004C7544 /* Second_Two_ViewController.m */; };
+		DD7CD91E1B184CA5004C7544 /* SecondaryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD91B1B184CA5004C7544 /* SecondaryStoryboard.storyboard */; };
+		DD7CD9221B184CB9004C7544 /* Third_One_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9201B184CB9004C7544 /* Third_One_ViewController.m */; };
+		DD7CD9231B184CB9004C7544 /* ThirdStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD9211B184CB9004C7544 /* ThirdStoryboard.storyboard */; };
+		DD7CD92C1B184E2F004C7544 /* Model_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD92A1B184E2F004C7544 /* Model_ViewController.m */; };
+		DD7CD9311B184E5D004C7544 /* Model_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD92A1B184E2F004C7544 /* Model_ViewController.m */; };
+		DD7CD9331B184E5D004C7544 /* Main_One_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9101B184C92004C7544 /* Main_One_ViewController.m */; };
+		DD7CD9341B184E5D004C7544 /* Second_One_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9181B184CA5004C7544 /* Second_One_ViewController.m */; };
+		DD7CD9351B184E5D004C7544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD89A1B180AC2004C7544 /* AppDelegate.m */; };
+		DD7CD9361B184E5D004C7544 /* Second_Two_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD91A1B184CA5004C7544 /* Second_Two_ViewController.m */; };
+		DD7CD9371B184E5D004C7544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD8971B180AC2004C7544 /* main.m */; };
+		DD7CD9381B184E5D004C7544 /* Third_One_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9201B184CB9004C7544 /* Third_One_ViewController.m */; };
+		DD7CD93A1B184E5D004C7544 /* libPods-KalayCam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 179B083829E2E165C73B04F1 /* libPods-KalayCam.a */; };
+		DD7CD93D1B184E5D004C7544 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD8A41B180AC2004C7544 /* LaunchScreen.xib */; };
+		DD7CD93F1B184E5D004C7544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD8A21B180AC2004C7544 /* Images.xcassets */; };
+		DD7CD9401B184E5D004C7544 /* SecondaryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD91B1B184CA5004C7544 /* SecondaryStoryboard.storyboard */; };
+		DD7CD9411B184E5D004C7544 /* ThirdStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD9211B184CB9004C7544 /* ThirdStoryboard.storyboard */; };
+		DD7CD94B1B184FED004C7544 /* Main_1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD94A1B184FED004C7544 /* Main_1.storyboard */; };
+		DD7CD94E1B185185004C7544 /* Custom1_Main_Two_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD94D1B185185004C7544 /* Custom1_Main_Two_ViewController.m */; };
+		DD7CD9531B185D53004C7544 /* CustomCam1_Model.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD9501B185D53004C7544 /* CustomCam1_Model.storyboard */; };
+		DD7CD9541B185D53004C7544 /* CustomCam1_Model_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7CD9521B185D53004C7544 /* CustomCam1_Model_ViewController.m */; };
+		DD7CD9551B185FC3004C7544 /* Model.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CD92B1B184E2F004C7544 /* Model.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD7CD8AC1B180AC2004C7544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7CD88A1B180AC2004C7544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7CD8911B180AC2004C7544;
+			remoteInfo = KalayCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD40CF6B1B1D558F00CE7A9D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD40CF6A1B1D558F00CE7A9D /* CamFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		179B083829E2E165C73B04F1 /* libPods-KalayCam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KalayCam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BE30848EECEF0B25C5D848 /* Pods-KalayCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalayCam.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-KalayCam/Pods-KalayCam.debug.xcconfig"; sourceTree = "<group>"; };
+		A21CB2C0571B0CD0C292B10E /* Pods-KalayCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalayCam.release.xcconfig"; path = "../Pods/Target Support Files/Pods-KalayCam/Pods-KalayCam.release.xcconfig"; sourceTree = "<group>"; };
+		DD40CF681B1D558F00CE7A9D /* CamFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CamFramework.framework; path = "/Users/app/Library/Developer/Xcode/DerivedData/CamSpace3-cyoxjwlmsurngxbaysrmnzflfctt/Build/Products/Debug-iphoneos/CamFramework.framework"; sourceTree = "<absolute>"; };
+		DD7CD8921B180AC2004C7544 /* KalayCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalayCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7CD8961B180AC2004C7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7CD8971B180AC2004C7544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD7CD8991B180AC2004C7544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD7CD89A1B180AC2004C7544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD7CD8A21B180AC2004C7544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD7CD8A51B180AC2004C7544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD7CD8AB1B180AC2004C7544 /* KalayCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalayCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7CD8B01B180AC2004C7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7CD8B11B180AC2004C7544 /* KalayCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KalayCamTests.m; sourceTree = "<group>"; };
+		DD7CD90F1B184C92004C7544 /* Main_One_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_One_ViewController.h; sourceTree = "<group>"; };
+		DD7CD9101B184C92004C7544 /* Main_One_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_One_ViewController.m; sourceTree = "<group>"; };
+		DD7CD9111B184C92004C7544 /* Main_Two_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_Two_ViewController.h; sourceTree = "<group>"; };
+		DD7CD9121B184C92004C7544 /* Main_Two_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_Two_ViewController.m; sourceTree = "<group>"; };
+		DD7CD9131B184C92004C7544 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DD7CD9171B184CA5004C7544 /* Second_One_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Second_One_ViewController.h; sourceTree = "<group>"; };
+		DD7CD9181B184CA5004C7544 /* Second_One_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Second_One_ViewController.m; sourceTree = "<group>"; };
+		DD7CD9191B184CA5004C7544 /* Second_Two_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Second_Two_ViewController.h; sourceTree = "<group>"; };
+		DD7CD91A1B184CA5004C7544 /* Second_Two_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Second_Two_ViewController.m; sourceTree = "<group>"; };
+		DD7CD91B1B184CA5004C7544 /* SecondaryStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondaryStoryboard.storyboard; sourceTree = "<group>"; };
+		DD7CD91F1B184CB9004C7544 /* Third_One_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Third_One_ViewController.h; sourceTree = "<group>"; };
+		DD7CD9201B184CB9004C7544 /* Third_One_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Third_One_ViewController.m; sourceTree = "<group>"; };
+		DD7CD9211B184CB9004C7544 /* ThirdStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdStoryboard.storyboard; sourceTree = "<group>"; };
+		DD7CD9291B184E2F004C7544 /* Model_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model_ViewController.h; sourceTree = "<group>"; };
+		DD7CD92A1B184E2F004C7544 /* Model_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model_ViewController.m; sourceTree = "<group>"; };
+		DD7CD92B1B184E2F004C7544 /* Model.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Model.storyboard; sourceTree = "<group>"; };
+		DD7CD9461B184E5D004C7544 /* CustomCam_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCam_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7CD9471B184E5D004C7544 /* CustomCam_1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CustomCam_1.plist; path = "/Users/app/Documents/不死的男人/架構/CamSpace3/KalayCam/CustomCam_1.plist"; sourceTree = "<absolute>"; };
+		DD7CD94A1B184FED004C7544 /* Main_1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_1.storyboard; sourceTree = "<group>"; };
+		DD7CD94C1B185185004C7544 /* Custom1_Main_Two_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Custom1_Main_Two_ViewController.h; sourceTree = "<group>"; };
+		DD7CD94D1B185185004C7544 /* Custom1_Main_Two_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Custom1_Main_Two_ViewController.m; sourceTree = "<group>"; };
+		DD7CD9501B185D53004C7544 /* CustomCam1_Model.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomCam1_Model.storyboard; sourceTree = "<group>"; };
+		DD7CD9511B185D53004C7544 /* CustomCam1_Model_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCam1_Model_ViewController.h; sourceTree = "<group>"; };
+		DD7CD9521B185D53004C7544 /* CustomCam1_Model_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCam1_Model_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7CD88F1B180AC2004C7544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C616D2B36261664169EEECA7 /* libPods-KalayCam.a in Frameworks */,
+				DD40CF691B1D558F00CE7A9D /* CamFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CD8A81B180AC2004C7544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CD9391B184E5D004C7544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CD93A1B184E5D004C7544 /* libPods-KalayCam.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33236B93CA0D54395D5AA8E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20BE30848EECEF0B25C5D848 /* Pods-KalayCam.debug.xcconfig */,
+				A21CB2C0571B0CD0C292B10E /* Pods-KalayCam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F61B751ECAADF137C498A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179B083829E2E165C73B04F1 /* libPods-KalayCam.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7CD8891B180AC2004C7544 = {
+			isa = PBXGroup;
+			children = (
+				DD40CF681B1D558F00CE7A9D /* CamFramework.framework */,
+				DD7CD8941B180AC2004C7544 /* KalayCam */,
+				DD7CD8AE1B180AC2004C7544 /* KalayCamTests */,
+				DD7CD8931B180AC2004C7544 /* Products */,
+				33236B93CA0D54395D5AA8E1 /* Pods */,
+				3F61B751ECAADF137C498A59 /* Frameworks */,
+				DD7CD9471B184E5D004C7544 /* CustomCam_1.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7CD8931B180AC2004C7544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD8921B180AC2004C7544 /* KalayCam.app */,
+				DD7CD8AB1B180AC2004C7544 /* KalayCamTests.xctest */,
+				DD7CD9461B184E5D004C7544 /* CustomCam_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7CD8941B180AC2004C7544 /* KalayCam */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD8991B180AC2004C7544 /* AppDelegate.h */,
+				DD7CD89A1B180AC2004C7544 /* AppDelegate.m */,
+				DD7CD8ED1B180D07004C7544 /* Main Storyboard */,
+				DD7CD8EE1B180D16004C7544 /* Secondary Storyboard */,
+				DD7CD8EF1B180D1E004C7544 /* Third Storyboard */,
+				DD7CD8F01B180D26004C7544 /* Modal Storyboard */,
+				DD7CD8A21B180AC2004C7544 /* Images.xcassets */,
+				DD7CD8A41B180AC2004C7544 /* LaunchScreen.xib */,
+				DD7CD8951B180AC2004C7544 /* Supporting Files */,
+			);
+			path = KalayCam;
+			sourceTree = "<group>";
+		};
+		DD7CD8951B180AC2004C7544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD8961B180AC2004C7544 /* Info.plist */,
+				DD7CD8971B180AC2004C7544 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD7CD8AE1B180AC2004C7544 /* KalayCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD8B11B180AC2004C7544 /* KalayCamTests.m */,
+				DD7CD8AF1B180AC2004C7544 /* Supporting Files */,
+			);
+			path = KalayCamTests;
+			sourceTree = "<group>";
+		};
+		DD7CD8AF1B180AC2004C7544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD8B01B180AC2004C7544 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD7CD8ED1B180D07004C7544 /* Main Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD9491B184FA0004C7544 /* CustomCam1 */,
+				DD7CD90B1B184C24004C7544 /* KalayCam */,
+			);
+			path = "Main Storyboard";
+			sourceTree = "<group>";
+		};
+		DD7CD8EE1B180D16004C7544 /* Secondary Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD90C1B184C2E004C7544 /* KalayCam */,
+			);
+			path = "Secondary Storyboard";
+			sourceTree = "<group>";
+		};
+		DD7CD8EF1B180D1E004C7544 /* Third Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD90D1B184C39004C7544 /* KalayCam */,
+			);
+			path = "Third Storyboard";
+			sourceTree = "<group>";
+		};
+		DD7CD8F01B180D26004C7544 /* Modal Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD94F1B185D53004C7544 /* CustomCam1 */,
+				DD7CD90E1B184C43004C7544 /* KalayCam */,
+			);
+			path = "Modal Storyboard";
+			sourceTree = "<group>";
+		};
+		DD7CD90B1B184C24004C7544 /* KalayCam */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD90F1B184C92004C7544 /* Main_One_ViewController.h */,
+				DD7CD9101B184C92004C7544 /* Main_One_ViewController.m */,
+				DD7CD9111B184C92004C7544 /* Main_Two_ViewController.h */,
+				DD7CD9121B184C92004C7544 /* Main_Two_ViewController.m */,
+				DD7CD9131B184C92004C7544 /* Main.storyboard */,
+			);
+			path = KalayCam;
+			sourceTree = "<group>";
+		};
+		DD7CD90C1B184C2E004C7544 /* KalayCam */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD9171B184CA5004C7544 /* Second_One_ViewController.h */,
+				DD7CD9181B184CA5004C7544 /* Second_One_ViewController.m */,
+				DD7CD9191B184CA5004C7544 /* Second_Two_ViewController.h */,
+				DD7CD91A1B184CA5004C7544 /* Second_Two_ViewController.m */,
+				DD7CD91B1B184CA5004C7544 /* SecondaryStoryboard.storyboard */,
+			);
+			path = KalayCam;
+			sourceTree = "<group>";
+		};
+		DD7CD90D1B184C39004C7544 /* KalayCam */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD91F1B184CB9004C7544 /* Third_One_ViewController.h */,
+				DD7CD9201B184CB9004C7544 /* Third_One_ViewController.m */,
+				DD7CD9211B184CB9004C7544 /* ThirdStoryboard.storyboard */,
+			);
+			path = KalayCam;
+			sourceTree = "<group>";
+		};
+		DD7CD90E1B184C43004C7544 /* KalayCam */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD9291B184E2F004C7544 /* Model_ViewController.h */,
+				DD7CD92A1B184E2F004C7544 /* Model_ViewController.m */,
+				DD7CD92B1B184E2F004C7544 /* Model.storyboard */,
+			);
+			path = KalayCam;
+			sourceTree = "<group>";
+		};
+		DD7CD9491B184FA0004C7544 /* CustomCam1 */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD94A1B184FED004C7544 /* Main_1.storyboard */,
+				DD7CD94C1B185185004C7544 /* Custom1_Main_Two_ViewController.h */,
+				DD7CD94D1B185185004C7544 /* Custom1_Main_Two_ViewController.m */,
+			);
+			path = CustomCam1;
+			sourceTree = "<group>";
+		};
+		DD7CD94F1B185D53004C7544 /* CustomCam1 */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CD9501B185D53004C7544 /* CustomCam1_Model.storyboard */,
+				DD7CD9511B185D53004C7544 /* CustomCam1_Model_ViewController.h */,
+				DD7CD9521B185D53004C7544 /* CustomCam1_Model_ViewController.m */,
+			);
+			path = CustomCam1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7CD8911B180AC2004C7544 /* KalayCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7CD8B51B180AC3004C7544 /* Build configuration list for PBXNativeTarget "KalayCam" */;
+			buildPhases = (
+				86DB19EF99105FBE3369CD4A /* Check Pods Manifest.lock */,
+				DD7CD88E1B180AC2004C7544 /* Sources */,
+				DD7CD88F1B180AC2004C7544 /* Frameworks */,
+				DD7CD8901B180AC2004C7544 /* Resources */,
+				09FB90327F5F8A5DA78806DD /* Copy Pods Resources */,
+				DD40CF6B1B1D558F00CE7A9D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalayCam;
+			productName = KalayCam;
+			productReference = DD7CD8921B180AC2004C7544 /* KalayCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7CD8AA1B180AC2004C7544 /* KalayCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7CD8B81B180AC3004C7544 /* Build configuration list for PBXNativeTarget "KalayCamTests" */;
+			buildPhases = (
+				DD7CD8A71B180AC2004C7544 /* Sources */,
+				DD7CD8A81B180AC2004C7544 /* Frameworks */,
+				DD7CD8A91B180AC2004C7544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7CD8AD1B180AC2004C7544 /* PBXTargetDependency */,
+			);
+			name = KalayCamTests;
+			productName = KalayCamTests;
+			productReference = DD7CD8AB1B180AC2004C7544 /* KalayCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD7CD92E1B184E5D004C7544 /* CustomCam_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7CD9431B184E5D004C7544 /* Build configuration list for PBXNativeTarget "CustomCam_1" */;
+			buildPhases = (
+				DD7CD92F1B184E5D004C7544 /* Check Pods Manifest.lock */,
+				DD7CD9301B184E5D004C7544 /* Sources */,
+				DD7CD9391B184E5D004C7544 /* Frameworks */,
+				DD7CD93B1B184E5D004C7544 /* Resources */,
+				DD7CD9421B184E5D004C7544 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCam_1;
+			productName = KalayCam;
+			productReference = DD7CD9461B184E5D004C7544 /* CustomCam_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7CD88A1B180AC2004C7544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = htaiwan;
+				TargetAttributes = {
+					DD7CD8911B180AC2004C7544 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DD7CD8AA1B180AC2004C7544 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DD7CD8911B180AC2004C7544;
+					};
+				};
+			};
+			buildConfigurationList = DD7CD88D1B180AC2004C7544 /* Build configuration list for PBXProject "KalayCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7CD8891B180AC2004C7544;
+			productRefGroup = DD7CD8931B180AC2004C7544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7CD8911B180AC2004C7544 /* KalayCam */,
+				DD7CD92E1B184E5D004C7544 /* CustomCam_1 */,
+				DD7CD8AA1B180AC2004C7544 /* KalayCamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7CD8901B180AC2004C7544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CD9161B184C92004C7544 /* Main.storyboard in Resources */,
+				DD7CD8A61B180AC2004C7544 /* LaunchScreen.xib in Resources */,
+				DD7CD9551B185FC3004C7544 /* Model.storyboard in Resources */,
+				DD7CD8A31B180AC2004C7544 /* Images.xcassets in Resources */,
+				DD7CD91E1B184CA5004C7544 /* SecondaryStoryboard.storyboard in Resources */,
+				DD7CD9231B184CB9004C7544 /* ThirdStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CD8A91B180AC2004C7544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CD93B1B184E5D004C7544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CD93D1B184E5D004C7544 /* LaunchScreen.xib in Resources */,
+				DD7CD94B1B184FED004C7544 /* Main_1.storyboard in Resources */,
+				DD7CD93F1B184E5D004C7544 /* Images.xcassets in Resources */,
+				DD7CD9401B184E5D004C7544 /* SecondaryStoryboard.storyboard in Resources */,
+				DD7CD9411B184E5D004C7544 /* ThirdStoryboard.storyboard in Resources */,
+				DD7CD9531B185D53004C7544 /* CustomCam1_Model.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09FB90327F5F8A5DA78806DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KalayCam/Pods-KalayCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86DB19EF99105FBE3369CD4A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7CD92F1B184E5D004C7544 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7CD9421B184E5D004C7544 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KalayCam/Pods-KalayCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7CD88E1B180AC2004C7544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CD92C1B184E2F004C7544 /* Model_ViewController.m in Sources */,
+				DD7CD9151B184C92004C7544 /* Main_Two_ViewController.m in Sources */,
+				DD7CD9141B184C92004C7544 /* Main_One_ViewController.m in Sources */,
+				DD7CD91C1B184CA5004C7544 /* Second_One_ViewController.m in Sources */,
+				DD7CD89B1B180AC2004C7544 /* AppDelegate.m in Sources */,
+				DD7CD91D1B184CA5004C7544 /* Second_Two_ViewController.m in Sources */,
+				DD7CD8981B180AC2004C7544 /* main.m in Sources */,
+				DD7CD9221B184CB9004C7544 /* Third_One_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CD8A71B180AC2004C7544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CD8B21B180AC3004C7544 /* KalayCamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CD9301B184E5D004C7544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7CD9541B185D53004C7544 /* CustomCam1_Model_ViewController.m in Sources */,
+				DD7CD9311B184E5D004C7544 /* Model_ViewController.m in Sources */,
+				DD7CD94E1B185185004C7544 /* Custom1_Main_Two_ViewController.m in Sources */,
+				DD7CD9331B184E5D004C7544 /* Main_One_ViewController.m in Sources */,
+				DD7CD9341B184E5D004C7544 /* Second_One_ViewController.m in Sources */,
+				DD7CD9351B184E5D004C7544 /* AppDelegate.m in Sources */,
+				DD7CD9361B184E5D004C7544 /* Second_Two_ViewController.m in Sources */,
+				DD7CD9371B184E5D004C7544 /* main.m in Sources */,
+				DD7CD9381B184E5D004C7544 /* Third_One_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD7CD8AD1B180AC2004C7544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7CD8911B180AC2004C7544 /* KalayCam */;
+			targetProxy = DD7CD8AC1B180AC2004C7544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD7CD8A41B180AC2004C7544 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7CD8A51B180AC2004C7544 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7CD8B31B180AC3004C7544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD7CD8B41B180AC3004C7544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7CD8B61B180AC3004C7544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BE30848EECEF0B25C5D848 /* Pods-KalayCam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CamSpace3-cyoxjwlmsurngxbaysrmnzflfctt/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = KalayCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD7CD8B71B180AC3004C7544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21CB2C0571B0CD0C292B10E /* Pods-KalayCam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CamSpace3-cyoxjwlmsurngxbaysrmnzflfctt/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = KalayCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD7CD8B91B180AC3004C7544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KalayCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalayCam.app/KalayCam";
+			};
+			name = Debug;
+		};
+		DD7CD8BA1B180AC3004C7544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KalayCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalayCam.app/KalayCam";
+			};
+			name = Release;
+		};
+		DD7CD9441B184E5D004C7544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BE30848EECEF0B25C5D848 /* Pods-KalayCam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomCam_1.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CustomCam_1;
+			};
+			name = Debug;
+		};
+		DD7CD9451B184E5D004C7544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21CB2C0571B0CD0C292B10E /* Pods-KalayCam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomCam_1.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CustomCam_1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7CD88D1B180AC2004C7544 /* Build configuration list for PBXProject "KalayCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7CD8B31B180AC3004C7544 /* Debug */,
+				DD7CD8B41B180AC3004C7544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7CD8B51B180AC3004C7544 /* Build configuration list for PBXNativeTarget "KalayCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7CD8B61B180AC3004C7544 /* Debug */,
+				DD7CD8B71B180AC3004C7544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7CD8B81B180AC3004C7544 /* Build configuration list for PBXNativeTarget "KalayCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7CD8B91B180AC3004C7544 /* Debug */,
+				DD7CD8BA1B180AC3004C7544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7CD9431B184E5D004C7544 /* Build configuration list for PBXNativeTarget "CustomCam_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7CD9441B184E5D004C7544 /* Debug */,
+				DD7CD9451B184E5D004C7544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7CD88A1B180AC2004C7544 /* Project object */;
+}

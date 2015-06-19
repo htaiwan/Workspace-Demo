@@ -1,0 +1,13 @@
+PODS:
+  - LOG_EXPR (1.2)
+  - RBStoryboardLink (0.1.4)
+
+DEPENDENCIES:
+  - LOG_EXPR
+  - RBStoryboardLink (~> 0.1.4)
+
+SPEC CHECKSUMS:
+  LOG_EXPR: 0125e2edc856f7c46fcdeaedc76ce23b87f950fd
+  RBStoryboardLink: 0faae84aea6a5e8716c4469984d847d958c3fcb3
+
+COCOAPODS: 0.37.1

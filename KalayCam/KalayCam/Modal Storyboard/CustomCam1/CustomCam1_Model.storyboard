@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="04c-ps-gJr">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="QXj-eB-2Qe">
+            <objects>
+                <navigationController id="04c-ps-gJr" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="N0d-vZ-YuK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DwX-Xe-BQy" kind="relationship" relationship="rootViewController" id="5G0-by-yxT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ozt-kX-cup" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-151" y="471"/>
+        </scene>
+        <!--Model-->
+        <scene sceneID="7yk-va-iyt">
+            <objects>
+                <viewController id="DwX-Xe-BQy" customClass="CustomCam1_Model_ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tkb-d3-cHk"/>
+                        <viewControllerLayoutGuide type="bottom" id="L6f-rh-lmF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kHx-d0-cnL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="這是ModelStroyboard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i62-xS-pjV">
+                                <rect key="frame" x="217" y="273" width="167" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="i62-xS-pjV" firstAttribute="top" secondItem="Tkb-d3-cHk" secondAttribute="bottom" constant="209" id="LRJ-Na-Thh"/>
+                            <constraint firstAttribute="centerX" secondItem="i62-xS-pjV" secondAttribute="centerX" constant="-0.5" id="sYE-vG-FF7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Model" id="9ar-ic-NkR">
+                        <barButtonItem key="leftBarButtonItem" title="Done" id="RkD-OQ-t2I">
+                            <connections>
+                                <action selector="dismissModalView:" destination="DwX-Xe-BQy" id="Q8g-TX-v0r"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Custom" id="Edq-da-Tpb">
+                            <connections>
+                                <action selector="showCustom:" destination="DwX-Xe-BQy" id="fpl-E8-YhR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="label" destination="i62-xS-pjV" id="PcO-GO-UbN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O9G-EC-cte" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="471"/>
+        </scene>
+    </scenes>
+</document>

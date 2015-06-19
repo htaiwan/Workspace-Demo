@@ -1,0 +1,6 @@
+framework module CamFramework {
+  umbrella header "CamFramework.h"
+
+  export *
+  module * { export * }
+}

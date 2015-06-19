@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/app/Library/Developer/Xcode/DerivedData/CamSpace3-ebhchtfnxpovgxcwoxpdecxpiruv/Build/Products/Debug-iphonesimulator/CamFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CamFramework-Swift.h",
+          'external-contents': "/Users/app/Library/Developer/Xcode/DerivedData/CamSpace3-ebhchtfnxpovgxcwoxpdecxpiruv/Build/Products/Debug-iphonesimulator/CamFramework.framework/Headers/CamFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CamFramework.h",
+          'external-contents': "/Users/app/Desktop/CamSpace3/CamFramework/CamFramework/CamFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "KalayCamManager.h",
+          'external-contents': "/Users/app/Desktop/CamSpace3/CamFramework/KalayCamManager.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/app/Library/Developer/Xcode/DerivedData/CamSpace3-ebhchtfnxpovgxcwoxpdecxpiruv/Build/Products/Debug-iphonesimulator/CamFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/app/Desktop/CamSpace3/CamFramework/build/CamFramework.build/Debug-iphonesimulator/CamFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
